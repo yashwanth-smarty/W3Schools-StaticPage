@@ -1,0 +1,444 @@
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Calligraffitti&family=Caveat&family=Freehand&family=Macondo&family=Nanum+Gothic&family=Nunito+Sans&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300&family=Permanent+Marker&family=Poppins:ital@1&family=Roboto&family=Source+Sans+Pro&display=swap');
+body{
+	margin: 0;
+}
+
+#logo{
+	width: 85px;
+	height: 80px;
+	padding: 10px 10px 5px 14px;
+}
+#logo:hover{
+	background-color: white;
+}
+.dropdown .btn{
+	font-size: 17px;
+	font-weight: 500;
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+div.dropdown{
+	display: block;
+	float: left;
+	padding-bottom: -2px;
+}
+div.dropdown:hover{
+	color: white;
+	background-color: #04aa6d;
+}
+
+.slayer{
+	background-color:#333 ;
+	overflow: hidden;
+	position: relative;
+	top: 65px;
+	width: 100%;
+	padding: 0px;
+	position: sticky;
+	top: -2px;
+}
+.slayer a{
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	display: block;
+	color: whitesmoke;
+	font-weight: bold;
+	float: left;
+	padding: 10px 15px;
+	font-size: 16.8px;
+	margin: 0px;
+}
+.slayer a:hover{
+	background-color: black;
+	color: whitesmoke;
+	text-decoration: none;
+}
+a#hl.stop{
+	color: white;
+	background-color: #04aa6d;
+}
+a.right{
+	float: right;
+}
+a#fixed{
+	background-color: #04aa6d;
+	color: white;
+}
+a#right {
+	text-decoration: none;
+	background-color: #04aa6d;
+	color: white;
+	padding: 10px 30px 10px;
+	border-radius: 40px 40px 40px 40px;
+}
+a#right.pro{
+	background-color: black;
+	color: white;
+}
+a#right.gcert{
+	background-color: #ff99cc;
+	color: black;
+}
+a#right.fweb{
+	background-color:  #ffff66;
+	color: black;
+}
+a#right.login:hover{
+		background-color: #049560;
+}
+a#right.pro:hover{
+	background-color: #262626;
+}
+a#right.gcert:hover{
+	background-color: #ff80bf;
+}
+a#right.fweb:hover{
+	background-color: #ffff33;
+}
+
+div.dropdown.btn{
+	float: right;
+	font-size: 17px;
+	font-weight: 500;
+	position: relative;
+	top: 24px;
+}
+
+a#list{
+	padding: 7.5px 7.5px;
+}
+.const{
+	background-color: black;
+}
+
+div.side {
+  width: 15%;
+  height: 100vh;
+  background-color:#e6e6e6;
+  padding: 5px;
+  overflow-y: scroll;
+  float: left;
+  margin-top: 0px;
+  position: sticky;
+  top: 43.83px;
+  
+}
+div.main {   
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  overflow: auto;
+  border-right: 1px #000;
+}
+p#sheading{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	padding-left: 15px;
+	margin-bottom: 0;
+}
+a.stop{ 
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding-left: 30px;
+	font-size: 1em;
+	padding-bottom: 5px;
+}
+a.stop:hover{
+	background-color: #bfbfbf;
+	color: black;
+}
+a.stop:active{
+	background-color: #04aa6d;
+	color: white;
+}
+
+#mhead{
+	font-size: 2.0em;
+	font-family: sans-serif;
+	color: #000;
+	padding: 10px 0px 10px 20px;
+	font-weight: lighter;
+	margin-left: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Calligraffitti&family=Caveat&family=Freehand&family=Macondo&family=Nanum+Gothic&family=Nunito+Sans&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300&family=Permanent+Marker&family=Poppins:ital@1&family=Roboto&display=swap');
+button.home{
+	font-size: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: white;
+	background-color: #04aa6d;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 20px;
+	letter-spacing: .7px;
+	margin-left: 10px;
+}
+button.home:hover{
+	background-color: #049560;
+}
+div.hadj{
+	margin-left: 20px;
+}
+button.next{
+	font-size: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: white;
+	background-color: #04aa6d;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 20px;
+	letter-spacing: .2px;
+	float: right;
+	margin-right: 26px;
+}
+button.next:hover{
+	background-color: #049560;
+}
+.box1{
+	background-color:  #c4eee0;
+	padding: 30px 0px 25px 25px;
+	margin-top: 20px;
+}
+button#study{
+	color: white;
+	background-color: #04aa6d;
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+	padding: 10px 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+button#study:hover{
+	background-color: #049560;
+}
+button#watch:hover{
+	background-color: #000;
+}
+button#watch{
+	color: white;
+	background-color: #222;
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+	padding: 10px 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#p1{
+	margin-left: 30px;
+	color: #000;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.box2{
+	background-color: #e6e6e6;
+	padding: 20px;
+	margin-left: 30px;
+}
+#ex{
+	font-size: 1.4em;
+	font-family: sans-serif;
+	color: #000;
+}
+div.inbox1{
+	background-color:  #001a33;
+	color: white;
+	padding: 20px;
+	padding-bottom: 5px;
+}
+button#try{
+	color: white;
+	background-color: #04aa6d;
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+	padding: 8px 15px;
+	margin-top: 20px;
+}
+button#try:hover{
+	background-color: #049560;
+}
+#bline{
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: #000;
+	font-family: times;
+	margin-left: 30px;
+}
+button#goto{
+	padding: 8px 15px;
+	color: #000;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+	border: none;
+	margin-left: 20px;
+	font-weight: 600;
+}
+button#goto:hover{
+	background-color: #04aa6d;
+	color: white;
+}
+.box3{
+	background-color: #222;
+	padding: 20px;
+	margin-left: 12px;
+	border-radius: 5px;
+}
+#inhead{
+	color: white;
+	font-size: 2em;
+}
+.inbox2{
+	background-color: white;
+}
+#ex{
+	margin-left: 15px;
+	font-size: 1.7em;
+}
+#inp{
+	font-size: 1em;
+	margin-left: 15px;
+}
+input#tinp{
+	border: none;
+}
+div.inbox3{
+	background-color: #e6e6e6;
+	padding: 15px;
+	margin: 15px;
+}
+button#submit{
+	color: white;
+	background-color: #04aa6d;
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+	padding: 8px 15px;
+	margin-left: 15px;
+}
+button#submit:hover{
+	background-color: #049560;
+}
+a#start{
+	margin-left: 15px;
+	color: black;
+}
+a#start:hover{
+	color: #04aa6d;
+}
+button#quiz{
+	color: white;
+	background-color: #00b8e6;
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+	padding: 8px 15px;
+	margin-left: 30px;
+}
+.refers{
+	display: grid;
+	grid-template-columns: repeat(3, .3fr);
+  grid-template-rows: repeat(5, 65px);
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+  margin-left: 30px;
+}
+.sub{
+	background-color: #e6e6e6;
+	color: #000;
+	padding: 20px 50px;
+	width: 285px;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 1.08em;
+}
+.sub:hover{
+	background-color: #000;
+	color: white;
+	cursor: pointer;
+}
+.kick h1{
+	font-family: 'Source Sans Pro',sans-serif;
+	font-size: 2.6em;
+	color: lightpink;
+	font-size: bold;
+	letter-spacing: .8px;
+}
+.kick{
+	background-color: #222;
+	padding: 60px;
+	border-radius: 15px;
+	width: 885px;
+	margin-left: 30px;
+}
+.kick h2{
+	font-family: 'Source Sans Pro',sans-serif;
+	font-size: 1.9em;
+	color: lightpink;
+	font-weight: 200;
+	letter-spacing: .8px;
+}
+.kick button{
+	color: white;
+	background-color: #04aa6d;
+	border: none;
+	border-radius: 40px;
+	font-weight: 600;
+	padding: 17px 50px;
+	font-size: 1.05em;
+	letter-spacing: .7px;
+}
+.kick button:hover{
+	background-color: #049560;
+}
+.fdetails{
+	color: #777;
+	font-size: .85em;
+	text-align: center;
+}
+p a#copyr{
+	font-size: 1em;
+	color: #777;
+	text-decoration: none;
+}
+p a#copyr:hover{
+	color: #04aa6d;
+	text-decoration: underline;
+}
+img#flogo{
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: -30px;
+    margin-left: -30px;
+}
+#elem{
+	color:  #ff6666;
+}
+#ab{
+	color: #6afbc6;
+}
+#purple{
+	color: #ecb3ff;
+}
+hr{
+	width: 93%;
+	position: relative;
+	left: 38px;
+	text-align: center;
+}
